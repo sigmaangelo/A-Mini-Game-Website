@@ -1,6 +1,9 @@
 //HOME PAGE
 //games
 document.getElementById("tictac").addEventListener("click", () => {
+  location.href = "evilgame.html";
+  
+document.getElementById("tictac").addEventListener("click", () => {
   location.href = "tictac.html";
 });
 
